@@ -32,7 +32,7 @@ canonifyurls = true
 
 [author]
   name = "Alex Mwangi"
-  bio = "Interests in #Data Science, #Rstats and #Python"
+  bio = "Data Scientist, #Rstats and #Python"
   job = "Data Scientist"
   location = "Kenya"
   # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
