@@ -32,7 +32,7 @@ canonifyurls = true
 
 [author]
   name = "Alex Mwangi"
-  bio = "Interests in Data Science, Machine Learning, Data Viz, Rstats and Python"
+  bio = "Interests in #Data Science, #Rstats and #Python"
   job = "Data Scientist"
   location = "Kenya"
   # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
@@ -90,13 +90,6 @@ canonifyurls = true
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-stack-overflow\"></i>"
   url = "https://stackoverflow.com/users/636472/kakawait"
 
-[[menu.misc]]
-  weight = 1
-  identifier = "rss"
-  name = "RSS"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-rss\"></i>"
-  url = "/index.xml"
-
 [params]
   # Customize date format use to render blog post date, categories and other
   # You must use date format used by Go Time package https://golang.org/pkg/time/
@@ -118,7 +111,7 @@ canonifyurls = true
   # If false it will flat categories.
   hierarchicalCategories = true
 
-  description = "Hugo tranquilpeak theme demo"
+  description = "Alex Mwangi"
 
   # Customization
   # Define the behavior of the sidebar
@@ -133,7 +126,7 @@ canonifyurls = true
   #    large sidebar is swiped on all lower screens
   # 5: Display header bar on all screens and large sidebar is swiped on large screen
   # 6: Display header bar on all screens and medium sidebar is swiped
-  sidebarBehavior = 1
+  sidebarBehavior = 3
 
   # Your blog cover picture. I STRONGLY recommend you to use a CDN to speed up loading of pages.
   # There is many free CDN like Cloudinary or you can also use indirectly
