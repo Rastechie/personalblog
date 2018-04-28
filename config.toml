@@ -15,7 +15,7 @@
 baseURL = "https://mwangialexx.netlify.com/"
 languageCode = "en-us"
 defaultContentLanguage = "en-us"
-title = "Hugo tranquilpeak theme"
+title = "Alex Mwangi"
 theme = "hugo-tranquilpeak-theme"
 disqusShortname = "https-mwangialexx-netlify-com"
 # googleAnalytics = "UA-123-45"
@@ -82,13 +82,13 @@ canonifyurls = true
   identifier = "github"
   name = "GitHub"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-github\"></i>"
-  url = "https://github.com/kakawait"
+  url = "https://github.com/Rastechie"
 [[menu.links]]
   weight = 2
-  identifier = "stackoverflow"
-  name = "Stack Overflow"
+  identifier = "Twitter"
+  name = "Twitter"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-stack-overflow\"></i>"
-  url = "https://stackoverflow.com/users/636472/kakawait"
+  url = "https://twitter.com/alexmwangi_ke"
 
 [params]
   # Customize date format use to render blog post date, categories and other
