@@ -1,0 +1,20 @@
+---
+title: Installing R Packages from Github When Behind a Proxy
+author: Alex Mwangi
+date: '2018-06-25'
+slug: installing-r-packages-from-github-when-behind-a-proxy
+categories:
+  - R
+tags:
+  - Packages
+---
+
+
+
+<p>Use the R script below to set proxy settings when donloading packages from Github.</p>
+<pre><code>library(httr)
+set_config(use_proxy(url=&quot;192.168.37.164, port=3128,
+username=&quot;username&quot;,password=&quot;password&quot;))
+
+install_github(&quot;usename/package-name&quot;)
+</code></pre>
