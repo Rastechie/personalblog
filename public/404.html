@@ -136,8 +136,8 @@
                   Jun 6, 2018
                 </span>
               </span>
-              <div class="media-content hide-xs font-merryweather">Use the R script below to set proxy settings when donloading packages from Github.
-library(httr)set_config(use_proxy(url=&quot;192.168.37.164, port=3128,username=&quot;username&quot;,password=&quot;password&quot;))install_github(&quot;usename/package-name&quot;)</div>
+              <div class="media-content hide-xs font-merryweather">How to download packages from github when behind a proxy. Use the R script below and replace the values where necessary.
+library(httr)set_config(use_proxy(url, port = NULL, username = NULL, password = NULL,auth = &quot;basic&quot;))devtools::install_github(&quot;username/package-name&quot;)</div>
             </div>
             <div style="clear:both;"></div>
             <hr>
