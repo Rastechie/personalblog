@@ -6,10 +6,20 @@
     <description>Recent content in R Markdown on Alex Mwangi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Jul 2015 21:13:14 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 27 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/r-markdown/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How to Install Packages From Github When Behind a Proxy</title>
+      <link>/2019/11/how-to-install-packages-from-github-when-behind-a-proxy/</link>
+      <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/11/how-to-install-packages-from-github-when-behind-a-proxy/</guid>
+      <description>How to download packages from github when behind a proxy. Use the R script below and replace the values where necessary.
+library(httr)set_config(use_proxy(url, port = NULL, username = NULL, password = NULL,auth = &amp;quot;basic&amp;quot;))devtools::install_github(&amp;quot;username/package-name&amp;quot;)</description>
+    </item>
     
     <item>
       <title>Hello R Markdown</title>

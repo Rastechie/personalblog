@@ -1,0 +1,24 @@
+---
+title: How to Install Packages From Github When Behind a Proxy
+author: A Mwangi
+date: '2019-11-27'
+slug: how-to-install-packages-from-github-when-behind-a-proxy
+categories:
+  - R
+tags:
+  - R Markdown
+keywords:
+  - Packages
+---
+
+How to download packages from github when behind a proxy. Use the R script below and replace the values where necessary.
+
+
+```
+library(httr)
+set_config(use_proxy(url, port = NULL, username = NULL, password = NULL,
+  auth = "basic"))
+
+devtools::install_github("username/package-name")
+
+```
